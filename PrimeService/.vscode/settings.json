@@ -2,5 +2,11 @@
     "editor.inlineSuggest.enabled": true,
     "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-    "github.copilot.chat.generateTests.codeLens": true
+    "github.copilot.chat.generateTests.codeLens": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
 }
