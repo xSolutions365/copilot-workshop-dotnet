@@ -13,7 +13,7 @@ GitHub Copilot and GitHub Copilot Chat can assist you in creating unit tests by 
 
 The **Attach Context** button (represented by a paperclip icon) allows GitHub Copilot to identify the relevant portions of your codebase. By adding this context, GitHub Copilot Chat can generate more accurate suggestions. In this case, you’ll use `PrimeServiceTests.cs` as the reference file for creating targeted unit tests.
 
-[!A screenshot showing the Chat view with Attach Context button in the lower left corner of the window.](doc-images/unit-test-chat-view-attach-context.png)
+![A screenshot showing the Chat view with Attach Context button in the lower left corner of the window.](doc-images/unit-test-chat-view-attach-context.png)
 
 5. In the **Search attachments** dropdown, head to the **recently opened** section and choose `PrimeServiceTests.cs`.  
 
@@ -22,14 +22,14 @@ The **Attach Context** button (represented by a paperclip icon) allows GitHub Co
 7. In the **Search attachments** text box, start typing `PrimeService.Unit`. Once it appears, select `PrimeService.UnitTests.csproj`.  
    *By specifying this project file, you’re providing GitHub Copilot with the broader testing context it needs.*
 
-[!A screenshot showing "PrimeService.Unit" entered in the Search attachments text box.](doc-images/unit-test-chat-view-attach-context-1.png)
+![A screenshot showing "PrimeService.Unit" entered in the Search attachments text box.](doc-images/unit-test-chat-view-attach-context-1.png)
 
 > [!NOTE]
 > Alternatively, you can drag a file from the Explorer view directly into the Chat view. This approach often speeds up the process of adding context.
 
 8. Notice that the Chat view is updated with the additional context.
 
-[!A screenshot showing the Chat view with PrimeService.cs and PrimeService.UnitTests.csproj listed as additional context.](doc-images/unit-test-chat-view-attach-context-2.png)
+![A screenshot showing the Chat view with PrimeService.cs and PrimeService.UnitTests.csproj listed as additional context.](doc-images/unit-test-chat-view-attach-context-2.png)
 
 9. In the **Chat view**, select **/tests add unit tests for my code**.  
 
@@ -43,11 +43,11 @@ GitHub Copilot’s suggestion will present two sections: a “Plan” and a code
 
 The plan specifically recommends creating a new `PrimeServiceTest.cs` file for the unit tests, placing it inside the **Numbers** project folder.
 
-[!A screenshot showing the GitHub Copilot suggestions for unit testing in the Chat view.](doc-images/unit-test-chat-view-create-unit-tests.png)
+![A screenshot showing the GitHub Copilot suggestions for unit testing in the Chat view.](doc-images/unit-test-chat-view-create-unit-tests.png)
 
 11. In the Chat view, select Apply Edits.
 
-[!A screenshot showing the Apply Edits button in the Chat view.](doc-images/unit-test-chat-view-create-unit-tests-1.png)
+![A screenshot showing the Apply Edits button in the Chat view.](doc-images/unit-test-chat-view-create-unit-tests-1.png)
 
 12. Notice that clicking **Apply Edits** adds the generated unit test code into a new tab within your editor.
 
@@ -130,7 +130,7 @@ namespace System.Numbers.UnitTests
 
 You should see green "test arrows" next to each unit test (assuming the build is successful).
 
-[!A screenshot showing the "test arrows" next to the unit tests.](doc-images/unit-test-chat-view-create-unit-tests-2.png)
+![A screenshot showing the "test arrows" next to the unit tests.](doc-images/unit-test-chat-view-create-unit-tests-2.png)
 
 You will create additional unit tests in the next section, so there’s no need to run them just yet.
 
@@ -336,6 +336,7 @@ namespace System.Numbers.UnitTests
 ```
 @workspace #selection are there any edge cases that should also be tested 
 ```
+
 5. Take a moment to review the suggestions GitHub Copilot provides:
 
 ```
@@ -434,13 +435,13 @@ Make sure the tests are meaningful, valid, and cover the intended edge cases. On
 You’ll see a tooltip explaining that you can click to run the test or right-click for more options.
 
 11. Right-click on a green "test arrow."
-[!Screenshot showing the context menu for running tests in Visual Studio Code.](doc-images/unit-test-visual-studio-code-test-options.png)
+![Screenshot showing the context menu for running tests in Visual Studio Code.](doc-images/unit-test-visual-studio-code-test-options.png)
 
 12. Choose **Reveal in Test Explorer**.  
 The **Test Explorer** view will open, allowing you to run, debug, and review test results. If you need to open it manually, select **Testing** from the Activity Bar on the left side of Visual Studio Code. Look for the icon that resembles a lab flask.
 
 13. At the top of the **Test Explorer** view, click **Run Tests**.
-[!Screenshot showing the Run Tests option in Visual Studio Code's Test Explorer.](doc-images/unit-test-visual-studio-code-test-options-2.png)
+![Screenshot showing the Run Tests option in Visual Studio Code's Test Explorer.](doc-images/unit-test-visual-studio-code-test-options-2.png)
 
 After a brief pause, the **Test Explorer** will display the outcome of the test run. All tests should pass successfully. You’ll see green checkmarks both in the **Test Explorer** and next to the unit tests in the editor, confirming that the tests have completed and passed without issues.
 
