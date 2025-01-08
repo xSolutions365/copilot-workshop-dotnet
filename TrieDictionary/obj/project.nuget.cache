@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OUN3yWhHHz4=",
+  "success": true,
+  "projectFilePath": "/Users/danielllewellyn/cp/copilot-workshop-dotnet/TrieDictionary/TrieDictionary.csproj",
+  "expectedPackageFiles": [
+    "/Users/danielllewellyn/.nuget/packages/mstest.testframework/3.1.1/mstest.testframework.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
