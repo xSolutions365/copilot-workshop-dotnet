@@ -1,5 +1,3 @@
-Create unit tests using Chat view
-
 ## Create unit tests using Chat view
 
 Use the following steps to complete this section of the exercise:
