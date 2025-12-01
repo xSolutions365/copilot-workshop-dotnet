@@ -1,5 +1,3 @@
-Create unit tests using Chat view
-
 ## Create unit tests using Chat view
 
 Use the following steps to complete this section of the exercise:
@@ -240,7 +238,7 @@ Use the following steps to complete this portion of the exercise:
 The contents of the PrimeServiceTests.cs file should resemble the following code snippet:
 
 ```
-namespace System.Numbers.UnitTests;
+namespace PrimeService.UnitTests;
 
 public class PrimeServiceTests
 {
