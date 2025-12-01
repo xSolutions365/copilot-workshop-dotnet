@@ -1,5 +1,3 @@
-Create unit tests using Chat view
-
 ## Create unit tests using Chat view
 
 Use the following steps to complete this section of the exercise:
@@ -66,15 +64,15 @@ The resulting code snippet should look similar to the following:
 ```csharp
 using Xunit;
 
-namespace System.Numbers.UnitTests
+namespace PrimeService.UnitTests
 {
     public class PrimeServiceTests
     {
-        private readonly PrimeService _primeService;
+        private readonly Numbers.PrimeService _primeService;
 
         public PrimeServiceTests()
         {
-            _primeService = new PrimeService();
+            _primeService = new Numbers.PrimeService();
         }
 
         [Fact]
@@ -160,15 +158,15 @@ Create unit tests for the IsPrime method using the xUnit framework.
 ```csharp
 using Xunit;
 
-namespace System.Numbers.UnitTests
+namespace PrimeService.UnitTests
 {
     public class PrimeServiceTests
     {
-        private readonly PrimeService _primeService;
+        private readonly Numbers.PrimeService _primeService;
 
         public PrimeServiceTests()
         {
-            _primeService = new PrimeService();
+            _primeService = new Numbers.PrimeService();
         }
 
         [Fact]
@@ -240,7 +238,7 @@ Use the following steps to complete this portion of the exercise:
 The contents of the PrimeServiceTests.cs file should resemble the following code snippet:
 
 ```
-namespace System.Numbers.UnitTests;
+namespace PrimeService.UnitTests;
 
 public class PrimeServiceTests
 {
@@ -259,15 +257,15 @@ It's okay if the test coverage is incomplete. The next section of the exercise s
 
 
 ```csharp
-namespace System.Numbers.UnitTests
+namespace PrimeService.UnitTests
 {
     public class PrimeServiceTests
     {
-        private readonly PrimeService _primeService;
+        private readonly Numbers.PrimeService _primeService;
 
         public PrimeServiceTests()
         {
-            _primeService = new PrimeService();
+            _primeService = new Numbers.PrimeService();
         }
 
         [Fact]
