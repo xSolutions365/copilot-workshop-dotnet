@@ -64,15 +64,15 @@ The resulting code snippet should look similar to the following:
 ```csharp
 using Xunit;
 
-namespace System.Numbers.UnitTests
+namespace PrimeService.UnitTests
 {
     public class PrimeServiceTests
     {
-        private readonly PrimeService _primeService;
+        private readonly Numbers.PrimeService _primeService;
 
         public PrimeServiceTests()
         {
-            _primeService = new PrimeService();
+            _primeService = new Numbers.PrimeService();
         }
 
         [Fact]
@@ -158,15 +158,15 @@ Create unit tests for the IsPrime method using the xUnit framework.
 ```csharp
 using Xunit;
 
-namespace System.Numbers.UnitTests
+namespace PrimeService.UnitTests
 {
     public class PrimeServiceTests
     {
-        private readonly PrimeService _primeService;
+        private readonly Numbers.PrimeService _primeService;
 
         public PrimeServiceTests()
         {
-            _primeService = new PrimeService();
+            _primeService = new Numbers.PrimeService();
         }
 
         [Fact]
@@ -257,15 +257,15 @@ It's okay if the test coverage is incomplete. The next section of the exercise s
 
 
 ```csharp
-namespace System.Numbers.UnitTests
+namespace PrimeService.UnitTests
 {
     public class PrimeServiceTests
     {
-        private readonly PrimeService _primeService;
+        private readonly Numbers.PrimeService _primeService;
 
         public PrimeServiceTests()
         {
-            _primeService = new PrimeService();
+            _primeService = new Numbers.PrimeService();
         }
 
         [Fact]
